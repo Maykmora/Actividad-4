@@ -2,7 +2,7 @@ print("Bienvenido al programa")
 students=[]
 
 for i in range(5):
-    nombre=input(f"Nombre del estudiante {i+1}:")
+    nombre=input(f"Nombre del estudiante{i+1}:")
     notas=[]
     for j in range(3):
         nota=float(input(f"Nota {j+1} de {nombre}:"))
