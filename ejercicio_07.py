@@ -9,4 +9,7 @@ for i in range(5):
         notas.append(nota)
     students.append({"nombre": nombre, "notas": notas})
 
-print(students)
+promedios=[]
+for estudiante in students:
+    promedio = sum(estudiante["notas"]) / 3
+    promedios.append(promedio)
